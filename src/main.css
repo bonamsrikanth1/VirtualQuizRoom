@@ -1,0 +1,121 @@
+
+html, body, .root {
+  height: 100%;
+}
+
+.header-container {
+  background-color: #4F2D7F;
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  /*border-bottom: 8px solid #ff9800; */
+  border-bottom: 8px solid #b0b2d5;
+}
+
+.layout-container {
+  height: 100%;
+}
+
+.pannels-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 89.6%;
+}
+
+.mainPannel {
+  flex: 1;
+  padding: 30px;
+  width: 80%;
+}
+
+.sidePannel {
+  background-color:#4F2D7F;
+  flex-basis: 200px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sidePannel-item {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.sidePannel-item:hover {
+  background-color: white;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  color: cadetblue;
+  /*color: black; */
+  text-decoration: none;
+}
+
+/* Class room related css */
+
+.questionFormButton {
+  margin: 0px 111px 0 19px;
+}
+
+.questionFormButton.save {
+  background: green;
+  color: white;
+}
+
+.questionFormButton.quit {
+  background: #b91616;
+  color: white;
+}
+
+.questionFormSelect {
+  width: 10%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: 30px;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+.createButtons {
+  min-width: 150px;
+}
+
+.classRooms {
+  margin: 10px 0px;
+}
+
+.classRooms .save {
+  margin-left: 25px;
+  background: green;
+  color: white;
+}
+
+.classRooms .quit {
+  margin-left: 25px;
+  background: #b91616;
+  color: white;
+}
+
+.questionsGroup {
+  border-bottom: 1px solid;
+}
+
+.individual-option {
+  padding-left: 18px;
+}
+
+.individual-option input {
+  margin-right: 5px;
+}
