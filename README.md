@@ -25,11 +25,15 @@ Lecturer use cases:  Creates a classroom and observe the results of the students
 
 Preconditions:
 a) Lecturer should be registered or else he should register first to login and create a classroom.
+
 b) While registering lecturer should enter a password of at least 6 characters.
+
 c) If lecturer wants students to join the classroom, lecturer should first host the classroom.
 
 Post conditions:
 a) Lecturer should end hosting so that no students answer after the stipulated time.
+
 b) Lecturer can also reset the hosting if he wants to host the quiz again.
+
 c) Lecturer should get classrooms and click on each classroom to see the results.
 
